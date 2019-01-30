@@ -39,3 +39,5 @@ deploy:
   file_glob: true
   skip_cleanup: true
   file: native/electron/packaged/*
+  on:
+    branch: travis-test
